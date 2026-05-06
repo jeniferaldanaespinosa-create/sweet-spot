@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #FFFFFF;
+        }
+
+        /* Header */
+        header {
+            background-color: #eebbbb; /* ROSA */
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Menú de navegación */
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Contenido */
+        .contenido {
+            padding: 20px;
+        }
+         .galeria {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            text-align: center;
+            padding: 10px;
+            width: 200px;
+            transition: transform 0.2s;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>˖✧˖°.✶₊ ⊹ ⋆˚☆˖° SWEET SPOT˖✧˖°.✶₊ ⊹ ⋆˚☆˖°</h1>
+        <p>Sabores Caseros</p>
+    </header>
+
+   <nav> <a href="index.html">Home</a>
+     <a href="pagina1.html">Productos</a>
+      <a href="pagina5.html">Contacto</a> </nav>
+
+    <div class="contenido">
+        <h2>Estos son los postres que tenemos disponibles:</h2>
+        <p></p>
+    </div>
+      <div class="galeria">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Torta">
+                <p>Deliciosa torta de chocolate</p>
+            </div>
+           <div class="card">
+  		<img src="https://images.unsplash.com/photo-1623246123320-0d6636755796?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cupcake glaseado">
+ 	        <p>Cupcake con glaseado </p>
+	</div>
+
+	<div class="card">
+ 		 <img src="https://plus.unsplash.com/premium_photo-1668772704254-c4c4798b0e5d?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Galletas caseras">
+  	<p>Galletas caseras</p>
+	</div>
+    </div>
+</body>
+</html>

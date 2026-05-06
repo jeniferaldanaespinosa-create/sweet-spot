@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #FFFFFF;
+        }
+
+        /* Header */
+        header {
+            background-color: #eebbbb; /* ROSA */
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Menú de navegación */
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Contenido */
+        .contenido {
+            padding: 20px;
+             max-width: 900px;
+    margin: auto;
+}
+
+/* contenedor del formulario */
+.contacto-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+/* inputs */
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+/* botón */
+form button {
+    background: #eebbbb;
+    color: black;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #e59c9c;
+}
+
+/* mapa */
+.mapa iframe {
+    width: 100%;
+    border-radius: 12px;
+}
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>˖✧˖°.✶₊ ⊹ ⋆˚☆˖° SWEET SPOT˖✧˖°.✶₊ ⊹ ⋆˚☆˖°</h1>
+        <p>Sabores Caseros</p>
+    </header>
+
+     <nav> <a href="index.html">Home</a> 
+    <a href="pagina1.html">Productos</a> 
+    <a href="pagina5.html">Contacto</a>
+ </nav>
+<div class="contenido">
+
+    <div class="contacto-box">
+        <h2>Contáctanos 💌</h2>
+        <p>Escríbenos para pedidos personalizados, dudas o sugerencias.</p>
+
+        <form>
+            <label>Nombre</label>
+            <input type="text" placeholder="Tu nombre" required>
+
+            <label>Correo</label>
+            <input type="email" placeholder="tuemail@gmail.com" required>
+
+            <label>Mensaje</label>
+            <textarea rows="5" placeholder="Cuéntanos qué postre deseas 😊" required></textarea>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </div>
+
+    <div class="contacto-box mapa">
+        <h2>📍 Nuestra ubicación</h2>
+
+        <iframe 
+            src="https://www.google.com/maps?q=Bogota&output=embed"
+            height="300"
+            loading="lazy">
+        </iframe>
+
+    </div>
+
+</div>
+   
+</body>
+</html>
